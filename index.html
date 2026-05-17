@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinerTrack | Enterprise Logistics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="/assets/Logo Mina.png" alt="Logo" width="45" class="me-2 animate-logo">
+                <span class="fw-bold tracking-tighter">MINER<span class="text-warning">TRACK</span></span>
+            </a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link px-3" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#beneficios">Tecnología</a></li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <a href="dashboard-mina.html" class="btn btn-outline-warning btn-sm px-4 rounded-pill">Usuario Mina</a>
+                    </li>
+                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+                        <a href="dashboard-admin.html" class="btn btn-warning btn-sm px-4 rounded-pill fw-bold text-dark">Admin Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero-premium d-flex align-items-center">
+        <div class="hero-overlay"></div>
+        <video autoplay muted loop class="hero-video">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-large-mining-truck-moving-on-a-dirt-road-44243-large.mp4" type="video/mp4">
+        </video>
+        
+        <div class="container mt-5">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-white" data-aos="fade-up">
+                    <span class="badge bg-warning text-dark mb-3 px-3 py-2 rounded-pill fw-bold">INDUSTRIA 4.0</span>
+                    <h1 class="display-2 fw-bold lh-1 mb-4">Eficiencia en cada <br><span class="text-warning">tonelada</span> transportada.</h1>
+                    <p class="lead mb-5 text-light opacity-75 fs-4">La solución estática líder para el control de concentrados minerales. Monitoreo robusto, infraestructura ligera.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#beneficios" class="btn btn-warning btn-lg px-5 py-3 fw-bold shadow-lg">Explorar Sistema</a>
+                        <a href="#acceso" class="btn btn-outline-light btn-lg px-5 py-3">Ver Paneles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="beneficios" class="section-padding bg-white">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="bi bi-cpu text-warning display-5"></i>
+                        <h4 class="mt-4 fw-bold">Arquitectura NGINX</h4>
+                        <p class="text-muted">Optimizado para servir contenido estático con latencia cero, ideal para zonas de baja conectividad.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box border-start ps-lg-5">
+                        <i class="bi bi-shield-check text-warning display-5"></i>
+                        <h4 class="mt-4 fw-bold">Seguridad Total</h4>
+                        <p class="text-muted">Control de accesos diferenciado para administración y operarios de planta.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box border-start ps-lg-5">
+                        <i class="bi bi-bar-chart-steps text-warning display-5"></i>
+                        <h4 class="mt-4 fw-bold">Tracking en Vivo</h4>
+                        <p class="text-muted">Visualización fluida de la logística de concentrados desde cualquier dispositivo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-dark py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h4 class="fw-bold mb-0">MINER<span class="text-warning">TRACK</span></h4>
+                    <p class="small opacity-50">Soluciones de Ingeniería para el Sector Minero © 2026</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="text-white mx-2 fs-5"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white mx-2 fs-5"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
